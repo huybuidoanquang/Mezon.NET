@@ -58,10 +58,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{9FC67223-2
 		docs\high-perf-sdk.md = docs\high-perf-sdk.md
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{482F9949-6E39-4076-9FDD-4A0D2C6C2A7E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{989D9C65-8F39-4CDD-B428-D34C85D95CED}"
 	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
 		Directory.Build.props = Directory.Build.props
 		LICENSE = LICENSE
+		Mezon.Net.targets = Mezon.Net.targets
 		NUGET_README.md = NUGET_README.md
 		README.md = README.md
 	EndProjectSection

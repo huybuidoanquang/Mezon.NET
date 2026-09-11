@@ -68,6 +68,16 @@ namespace Mezon.Net.Sdk
         /// <summary>Returns a non-expired session JWT, refreshing when needed.</summary>
         public Task<string> GetAuthTokenAsync() => _engine.GetOrRefreshAuthTokenAsync();
 
+        /// <summary>
+        /// Returns the current Mezon session id after refreshing the session when needed.
+        /// Suitable for services, such as STN, that accept the gateway SID as a credential.
+        /// </summary>
+        public async Task<string> GetSessionIdAsync()
+        {
+            await _engine.GetOrRefreshAuthTokenAsync().ConfigureAwait(false);
+            return _engine.CurrentSession.SessionId;
+        }
+
         public event Func<Task> Ready
         {
             add { _readyEvent.Add(value); }

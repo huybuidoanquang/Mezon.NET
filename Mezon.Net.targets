@@ -19,7 +19,7 @@
     <Authors>Mezon.Net Contributors</Authors>
     <Company>Mezon.Net</Company>
     <Copyright>Copyright (c) Mezon.Net Contributors</Copyright>
-    <PackageTags>mezon;mezon.net;chat;bot;realtime;websocket;protobuf</PackageTags>
+    <PackageTags>mezon;mezon.net;mezon.ai;chat;bot;realtime;websocket;protobuf</PackageTags>
     <PackageProjectUrl>https://github.com/huy-buidoanquang/Mezon.NET</PackageProjectUrl>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
